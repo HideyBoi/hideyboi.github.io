@@ -21,6 +21,12 @@ body {
     color: floralwhite;
 }
 
+.navbar a {
+    display: inline-flex;
+    align-content: center;
+    justify-content: flex-start;
+}
+
 .navbarLogo {
     width: 35px;
     height: 35px;
@@ -61,11 +67,22 @@ body {
     padding: 10px;
 }
 
+.pageHeaderBG {
+    background-image: url('/public/bg.png');
+    background-position: center;
+    background-size: cover;
+    height: 8%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
 .pageTitle {
     text-align: center;
     padding: 50px;
-    padding-bottom: 15px;
+    padding-bottom: 50px;
     font-size: 45px;
+    text-shadow: 3px 3px #293849;
 }
 
 .subTitle {
@@ -82,10 +99,19 @@ body {
     font-size: 25px;
 }
 
+.socialsAlign {
+    display: flex;
+    justify-content: center;
+}
+
 .socialsContainer {  
     padding-top: 5px;
     display: flex;
+    justify-self: center;
     justify-content: center;
+    background-color: #293849;
+    border-radius: 50px;
+    width: fit-content;
 }
 
 .socialsButton {
@@ -111,6 +137,36 @@ body {
     background-color: #1b1b1b;
 }
 
+.projectsContainer {  
+    padding-top: 5px;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+}
+
+.projectsButton {
+    padding: 10px;
+    width: 170px;
+    height: 170px;
+    display: inline-block;
+    align-content: center;
+
+}
+
+.projectsIcons {
+    width: 55px;
+    height: 55px;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+.projectsText {
+    background-color: #1b1b1b;
+}
+
 p {
     text-align: center;
 }
@@ -125,6 +181,8 @@ a {
     justify-content: center;
     max-width: 100%;
     flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
 }
 
 .newsObject {
