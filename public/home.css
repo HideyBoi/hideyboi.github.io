@@ -1,0 +1,231 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #0077B6;
+    color: #CAF0F8;
+}
+
+.navbar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    margin: 0;
+    font-size: 35px;
+    display: inline-flex;
+    align-content: center;
+    justify-content: flex-start;
+    width: 100%;
+    background-color: #03045E;
+    color: #CAF0F8;
+}
+
+.navbar img {
+    margin: 0;
+    max-height: 40px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    margin-left: 15px;
+}
+
+.navbarButtonContainer {
+    padding-right: 15px;
+    padding-left: 25px;
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    width: 100%;
+}
+
+.navbarButton {
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #0077B6;
+    border-radius: 8px;
+    font-size: 24px;
+    margin: 6px;
+    display: flex;
+    justify-content: center;
+    color: #03045E;
+}
+
+.navbarButton:hover {
+    background-color: #025785;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 34px;
+    display: flex;
+    justify-content: center;
+    color: #CAF0F8;
+    transition: all .1s ease-out;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.navbarButton-Selected {
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #0077B6;
+    border-style: solid;
+    border-color: #CAF0F8;
+    border-radius: 8px;
+    font-size: 24px;
+    margin: 6px;
+    display: flex;
+    justify-content: center;
+    color: #03045E;
+}
+
+.navbarButton-Selected:hover {
+    background-color: #025785;
+    border-radius: 5px;
+    margin: 3px;
+    font-size: 34px;
+    display: flex;
+    justify-content: center;
+    color: #CAF0F8;
+    transition: all .1s ease-out;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.navbar a {
+    
+    height: auto;
+    display: inline-flex;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    align-items: center;
+    
+}
+
+.title {
+    font-size: 56px;
+    width: 100%;
+    height: 150px;
+    background-color: #00B4D8;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title p {
+    font-size: 56px;
+    margin: 0;
+    text-align: center;
+}
+
+.pageBody {
+    padding-top: 200px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+p {
+    text-align: center;
+    color: #CAF0F8;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    color: #CAF0F8;
+    margin-bottom: 15px;
+}
+
+h2 {
+    width: 100%;
+    text-align: center;
+    color: #CAF0F8;
+    margin-bottom: 15px;
+}
+
+.textContainerCenter {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.textContainerCenter p {
+    color: #CAF0F8;
+    margin: 0;
+    text-align: center;
+}
+
+.socialMediaContainer {
+    padding-top: 5px;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+}
+
+.socialButton {
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: inline-block;
+    background-color: #03045E;
+    border-radius: 10px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.socialButton:hover {
+    transition: all .1s ease-out;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    background-color: #24257e;
+    border-radius: 10px;
+    margin: 5px;
+    flex-grow: 0.02;
+    justify-content: center;
+}
+
+.socialButton img {
+    width: 55px;
+    height: 55px;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+.socialButton p {
+    text-align: center;
+    color: #CAF0F8;
+    text-decoration: none;
+    margin: 2px;
+}
+.socialButton a {
+    text-decoration: none;
+}
+
+.itchioEmbedContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25px;
+}
+
+footer {
+    background-color: #03045E;
+    min-height: 450px;
+    margin-top: 300px;
+    padding: 25px;
+}
+
+body::-webkit-scrollbar {
+    width: 0.25rem;
+}
+  
+body::-webkit-scrollbar-track {
+    background: #191a57;
+}
+  
+body::-webkit-scrollbar-thumb {
+    background: #00517c;
+}
