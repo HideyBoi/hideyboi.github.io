@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: sans-serif;
-    background-color: #0077B6;
+    background-color: #0E225E;
     color: #CAF0F8;
 }
 
@@ -15,7 +15,7 @@ body {
     align-content: center;
     justify-content: flex-start;
     width: 100%;
-    background-color: #03045E;
+    background-color: #0B132B;
     color: #CAF0F8;
 }
 
@@ -39,17 +39,17 @@ body {
 .navbarButton {
     padding-left: 5px;
     padding-right: 5px;
-    background-color: #0077B6;
+    background-color: #253257;
     border-radius: 8px;
     font-size: 24px;
     margin: 6px;
     display: flex;
     justify-content: center;
-    color: #03045E;
+    color: #CAF0F8;
 }
 
 .navbarButton:hover {
-    background-color: #025785;
+    background-color: #253257;
     border-radius: 5px;
     margin: 5px;
     font-size: 34px;
@@ -64,19 +64,19 @@ body {
 .navbarButton-Selected {
     padding-left: 5px;
     padding-right: 5px;
-    background-color: #0077B6;
+    background-color: #0E225E;
     border-style: solid;
-    border-color: #CAF0F8;
+    border-color: #072370;
     border-radius: 8px;
     font-size: 24px;
     margin: 6px;
     display: flex;
     justify-content: center;
-    color: #03045E;
+    color: #CAF0F8;
 }
 
 .navbarButton-Selected:hover {
-    background-color: #025785;
+    background-color: #0E225E;
     border-radius: 5px;
     margin: 3px;
     font-size: 34px;
@@ -103,7 +103,7 @@ body {
     font-size: 56px;
     width: 100%;
     height: 150px;
-    background-color: #00B4D8;
+    background-color: #072370;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -164,7 +164,7 @@ h2 {
     padding-top: 5px;
     padding-bottom: 5px;
     display: inline-block;
-    background-color: #03045E;
+    background-color: #141824;
     border-radius: 10px;
     margin: 5px;
     display: flex;
@@ -177,7 +177,7 @@ h2 {
     padding-top: 5px;
     padding-bottom: 5px;
     display: flex;
-    background-color: #24257e;
+    background-color: #141824;
     border-radius: 10px;
     margin: 5px;
     flex-grow: 0.02;
@@ -212,7 +212,7 @@ h2 {
 }
 
 footer {
-    background-color: #03045E;
+    background-color: #253257;
     min-height: 450px;
     margin-top: 300px;
     padding: 25px;
